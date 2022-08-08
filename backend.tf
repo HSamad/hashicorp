@@ -2,10 +2,10 @@
 # For more information, see https://www.terraform.io/docs/backends/types/remote.html
 terraform {
   backend "remote" {
-    organization = "{{ORGANIZATION_NAME}}"
+    organization = "{{Samad_Malik}}"
 
     workspaces {
-      name = "{{WORKSPACE_NAME}}"
+      name = "{{ASamad_Learning_Terraform}}"
     }
   }
 
